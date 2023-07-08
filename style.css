@@ -1,0 +1,35 @@
+body{
+    background-attachment: fixed;
+}
+#myhead{
+    position: relative;
+    font-size: 60px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      img{
+        width:  80%;
+      }
+    }
+    
+    /* Styles for smaller screens */
+    @media (max-width: 480px) {
+      .container {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+      #DATASC{
+        width:40% ;
+        
+      }
+    #arc{
+      width: 40%;
+    }
+    #merchant{
+        width: 40%;
+    }
+    
