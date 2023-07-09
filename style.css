@@ -1,10 +1,16 @@
+*{
+    margin: 0px;
+}
 body{
     background-attachment: fixed;
+    background-position: center;
+    backface-visibility: 10px;
+
 }
 #myhead{
     position: relative;
-    font-size: 60px;
-    }
+    font-size: 50px;
+}
     @media (max-width: 768px) {
       .container {
         width: 80%;
